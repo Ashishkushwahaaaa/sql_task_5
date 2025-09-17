@@ -1,0 +1,5 @@
+All Privileges list
+
+GRANT ALL PRIVILEGES ON sql_task_5.* TO 'admin_user'@'localhost' WITH GRANT OPTION;
+GRANT SELECT, INSERT, UPDATE, DELETE ON sql_task_5.* TO 'editor_user'@'localhost';
+GRANT SELECT ON sql_task_5.* TO 'viewer_user'@'localhost';
